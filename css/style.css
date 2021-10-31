@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    font-family: sans-serif;
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+
+}
+button:hover{
+    background-color: #3a3833;
+}
+
+/* ..............nav style.......... */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-nav li{
+    padding: 0px 12px;
+
+}
+.navbar-nav li a{
+    font-weight: 600;
+    
+    color: black !important;
+    float: right;
+    text-align:left ;
+    transition: 0.3s ease;
+
+}
+.navbar-nav li a:hover,
+.navbar-nav li a.active
+{
+color: coral !important;
+}
+.navbar-nav li i{
+    font-size: 1.2rem;
+    padding: 9px 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+     float: right; 
+    text-align:left ;
+    
+}
+.navbar-nav li a:hover,
+.navbar-nav i:hover{
+    color: coral !important;
+}
+
+ /* .fa-bars{
+    color: rgb(34, 32, 31);
+    font-size: 30px !important;
+}  */
+/* ----mobile nav--- */
+.navbar-toggler{
+    border: none;
+    outline: none !important;
+}
+ #bar{
+    font-size: 1.5rem; 
+    padding:  7px !important; 
+    color: black;
+    font-weight: 500;
+    transition: 0.5s ease;
+
+
+} 
+#bar:hover,
+#bar:active{
+    color: white;
+}
+@media screen and (max-width : 991px) {
+      #nav-bar > nav > div > button:hover,
+     #nav-bar > nav > div > button:active
+     {
+        background-color: #fb774b;
+    } 
+    #nav-bar > nav > div > button:hover #bar,
+     #nav-bar > nav > div > button:active #bar
+     {
+        background-color: #fb774b;
+    }  
+   
+    
+}
+
+
+
+/* .............banner style............... */
+#banner span{
+
+    color: coral;
+    font-weight: 600;
+}
+
+.banner-st{
+    margin-top: 9%;
+}
+-----------
+
