@@ -22,6 +22,19 @@ button:hover{
     background-color: #3a3833;
 }
 
+hr{
+    width: 30px;
+    height: 4px;
+    background-color: #fb774b;
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+
+}
 /* ..............nav style.......... */
 #nav-bar{
     position: sticky;
@@ -107,14 +120,66 @@ color: coral !important;
 
 
 /* .............banner style............... */
+
 #banner span{
 
     color: coral;
     font-weight: 600;
 }
+.banner{
+    background-color: rgb(236, 233, 233);
+}
 
 .banner-st{
     margin-top: 9%;
 }
------------
+/* -----------product----------- */
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+
+.product .buy-btn{
+    background-color: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.4s all;
+}
+.product:hover .buy-btn{
+    
+    transform: translateY(0);
+    opacity: 1;
+    
+}
+
+/* -----------------banner2----- */
+#banner2{
+    background-image: url("../img/banner/2.jpg");
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 60px center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#banner2 h1{
+    color: white;
+
+}
+#banner2 h4{
+    color: white;
+}
+#banner2 button{
+    background-color: #fb774b;
+}
+
 
