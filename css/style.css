@@ -65,7 +65,7 @@ hr{
 {
 color: coral !important;
 }
-.navbar-nav li i{
+/* .navbar-nav li i{
     font-size: 1.2rem;
     padding: 9px 4px;
     cursor: pointer;
@@ -78,7 +78,7 @@ color: coral !important;
 .navbar-nav li a:hover,
 .navbar-nav i:hover{
     color: coral !important;
-}
+} */
 
  /* .fa-bars{
     color: rgb(34, 32, 31);
@@ -182,4 +182,8 @@ color: coral !important;
     background-color: #fb774b;
 }
 
+/* ----------------footer------------- */
+footer{
+    background-color: #222222;
+}
 
